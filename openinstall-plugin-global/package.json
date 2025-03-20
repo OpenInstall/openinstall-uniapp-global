@@ -2,7 +2,7 @@
     "name": "openinstall-uniapp-global",
     "id": "openinstall-plugin-global",
     "version": "1.0.0",
-    "description": "uni-app集成openinstall SDK插件",
+    "description": "uni-app 集成 openinstallglobal SDK 插件",
     "_dp_type": "nativeplugin",
     "_dp_nativeplugin": {
         "ios": {
@@ -18,7 +18,7 @@
             "deploymentTarget": "9.0",
 			"parameters": {
 			    "APP_KEY": {
-			        "des": "openinstall平台为应用分配的AppKey",
+			        "des": "openinstallglobal平台为应用分配的AppKey",
 			        "key": "com.openinstall.APP_KEY"
 			    }
 			}
@@ -28,10 +28,10 @@
                 {
                     "type": "module",
                     "name": "openinstall-plugin-global",
-                    "class": "io.openinstall.dcloud.OpenInstallModule"
+                    "class": "com.openinstallglobal.dcloud.OpenInstallModule"
                 }
             ],
-            "hooksClass": "io.openinstall.dcloud.OpenInstallHookProxy",
+            "hooksClass": "com.openinstallglobal.dcloud.OpenInstallHookProxy",
             "integrateType": "aar",
             "dependencies": [],
             "abis": [],
@@ -40,7 +40,7 @@
             ],
             "parameters": {
                 "APP_KEY": {
-                    "des": "openinstall平台为应用分配的AppKey",
+                    "des": "openinstallglobal平台为应用分配的AppKey",
                     "key": "com.openinstall.APP_KEY"
                 }
             }
